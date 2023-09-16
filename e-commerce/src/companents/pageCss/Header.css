@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#imp{
+display: flex;
+flex-wrap:wrap ;
+flex-direction: row;
+justify-content: space-between;
+
+}
+.head{
+    color: #323334;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+ul{
+    list-style-type: none;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:flex-end;
+    >li{
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-top: 0;
+        
+    }
+}
+.headBar{
+   display: flex;
+   justify-content: space-between;
+   
+}

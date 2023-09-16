@@ -1,12 +1,14 @@
 
 import './App.css'
-import Header from './companents/Header'
+
+import MainPage from './companents/MainPage'
 function App() {
 
 
   return (
     <>
-      <Header/>
+    <MainPage/>
+    
     </>
   )
 }
